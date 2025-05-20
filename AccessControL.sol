@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.10;
 contract AccessControl{
     event GrantRole(bytes32 indexed role ,address indexed account);
     event RevokeRole(bytes32 indexed role , address indexed account);
