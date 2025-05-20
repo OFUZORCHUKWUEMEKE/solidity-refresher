@@ -16,6 +16,4 @@ contract PiggyBank {
         emit Withdraw(address(this).balance);
         selfdestruct(payable(msg.sender));
     }
-
-
 }
